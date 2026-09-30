@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Ankita Hiremath | AI & Data Science Student</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background: #0f172a;
+            color: white;
+            line-height: 1.6;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 8%;
+            background: #111827;
+            position: sticky;
+            top: 0;
+        }
+
+        nav h2 {
+            color: #38bdf8;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 20px;
+        }
+
+        nav a:hover {
+            color: #38bdf8;
+        }
+
+        section {
+            padding: 70px 10%;
+        }
+
+        .hero {
+            min-height: 90vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .hero h1 {
+            font-size: 55px;
+            margin-bottom: 15px;
+        }
+
+        .hero h1 span {
+            color: #38bdf8;
+        }
+
+        .hero h3 {
+            color: #cbd5e1;
+            font-size: 25px;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            max-width: 650px;
+            color: #94a3b8;
+            font-size: 18px;
+        }
+
+        .button {
+            display: inline-block;
+            margin-top: 25px;
+            padding: 12px 22px;
+            background: #38bdf8;
+            color: #0f172a;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: bold;
+        }
+
+        .button:hover {
+            background: #7dd3fc;
+        }
+
+        h2 {
+            font-size: 35px;
+            margin-bottom: 30px;
+            color: #38bdf8;
+        }
+
+        .about p {
+            max-width: 800px;
+            color: #cbd5e1;
+            font-size: 18px;
+        }
+
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+
+        .skill {
+            background: #1e293b;
+            padding: 12px 20px;
+            border-radius: 8px;
+            border: 1px solid #334155;
+        }
+
+        .projects {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 25px;
+        }
+
+        .project {
+            background: #1e293b;
+            padding: 25px;
+            border-radius: 12px;
+            border: 1px solid #334155;
+        }
+
+        .project h3 {
+            color: white;
+            margin-bottom: 10px;
+        }
+
+        .project p {
+            color: #94a3b8;
+        }
+
+        .project a {
+            display: inline-block;
+            margin-top: 15px;
+            color: #38bdf8;
+            text-decoration: none;
+        }
+
+        .contact p {
+            margin: 10px 0;
+            color: #cbd5e1;
+        }
+
+        footer {
+            text-align: center;
+            padding: 25px;
+            background: #111827;
+            color: #94a3b8;
+        }
+
+        @media (max-width: 700px) {
+            nav {
+                flex-direction: column;
+                gap: 10px;
+            }
+
+            nav a {
+                margin: 5px;
+            }
+
+            .hero h1 {
+                font-size: 40px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav>
+        <h2>Ankita</h2>
+
+        <div>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </nav>
+
+
+    <section class="hero">
+
+        <h1>Hi, I'm <span>Ankita Hiremath</span> 👋</h1>
+
+        <h3>AI & Data Science Undergraduate Student</h3>
+
+        <p>
+            I'm an AI & Data Science student interested in Python,
+            SQL, Data Analytics, Machine Learning and solving
+            real-world problems with technology.
+        </p>
+
+        <a class="button" href="#projects">View My Projects</a>
+
+    </section>
+
+
+    <section id="about" class="about">
+
+        <h2>About Me</h2>
+
+        <p>
+            I am an undergraduate student specializing in Artificial
+            Intelligence and Data Science. I enjoy learning programming,
+            data analysis and AI technologies. I am currently building
+            projects to improve my practical skills and prepare for
+            opportunities in the technology industry.
+        </p>
+
+    </section>
+
+
+    <section id="skills">
+
+        <h2>Skills</h2>
+
+        <div class="skills">
+
+            <div class="skill">Python</div>
+            <div class="skill">SQL</div>
+            <div class="skill">Data Analysis</div>
+            <div class="skill">Machine Learning</div>
+            <div class="skill">Git & GitHub</div>
+            <div class="skill">Java</div>
+            <div class="skill">Data Structures</div>
+
+        </div>
+
+    </section>
+
+
+    <section id="projects">
+
+        <h2>Projects</h2>
+
+        <div class="projects">
+
+            <div class="project">
+
+                <h3>📊 Student Marks Analysis</h3>
+
+                <p>
+                    A data analysis project focused on analyzing
+                    student marks and extracting useful insights
+                    from the dataset.
+                </p>
+
+                <a href="https://github.com/AnkitaHiremath/student-marks-analysis"
+                   target="_blank">
+                    View on GitHub →
+                </a>
+
+            </div>
+
+
+            <div class="project">
+
+                <h3>🎬 IMDb SQL Analysis</h3>
+
+                <p>
+                    A SQL-based data analysis project using IMDb
+                    movie data to explore and analyze movie-related
+                    information.
+                </p>
+
+                <a href="https://github.com/AnkitaHiremath/imdb-sql-analysis"
+                   target="_blank">
+                    View on GitHub →
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <section id="contact" class="contact">
+
+        <h2>Contact</h2>
+
+        <p>📧 Email: Add your email here</p>
+
+        <p>
+            💻 GitHub:
+            <a href="https://github.com/AnkitaHiremath"
+               target="_blank">
+                github.com/AnkitaHiremath
+            </a>
+        </p>
+
+        <p>🔗 LinkedIn: Add your LinkedIn here</p>
+
+    </section>
+
+
+    <footer>
+
+        © 2026 Ankita Hiremath | AI & Data Science
+
+    </footer>
+
+</body>
+</html>
